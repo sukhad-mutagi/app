@@ -1,0 +1,44 @@
+{
+    "appswift": {
+        "continueTheming": true,
+        "shouldCommitCode": true,
+        "scmType": "git",
+        "scmUserName": "sukhad-mutagi",
+        "scmPwd": "kadu11279",
+        "scmUrl": "https://github.com/sukhad-mutagi/app.git"
+    },
+    "cicdSwift": {
+        "jenkinsProps": {
+            "uploadPlugins": false,
+            "scmCredId": "1486619344654scm",
+            "jenkinsProtocol": "http://",
+            "jenkinsPath": "/",
+            "jenkinsHostName": "localhost",
+            "jenkinsPort": 8080,
+            "jenkinsUserId": "kkorada",
+            "jenkinsPassword": "kkorada",
+            "cdoeMavenName": "maven3",
+            "cdoeSonarName": "SonarQube@10.102.22.59",
+            "scm": "git",
+            "codebaseUrl": "https://github.com/sukhad-mutagi/app.git",
+            "scmUserId": "sukhad-mutagi",
+            "scmPwd": "kadu11279"
+        },
+        "cfProps": {
+            "cfApiEndPoint": "http://api.run.pivotal.io",
+            "cfCredId": "1486619344654cf",
+            "createDbService": true,
+            "cfProfile": "prod",
+            "dbServiceName": "cleardb",
+            "dbServicePlanName": "spark",
+            "noOfInstances": 1,
+            "appMemory": 1024,
+            "appDiskQuota": 1024,
+            "cfUserID": "kalyan.korada@capgemini.com",
+            "cfPwd": "India@123",
+            "cfOrg": "FS GBU",
+            "cfSpace": "ADM",
+            "cfAppName": "App"
+        }
+    }
+}
